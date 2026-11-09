@@ -62,7 +62,7 @@ scikit-learn saat serving berbeda dari saat training.
 ## Sesi 3 — Streamlit
 
 ```bash
-streamlit run streamlit/app.py      # API harus sedang jalan
+streamlit run streamlit/app.py      # API harus sedang jalan, pastikan .venv aktif
 ```
 
 Halaman: **Home**, **Prediction** (form manual), dan **Employee Profiles**

@@ -1,0 +1,117 @@
+{
+  "trained_at": "2026-11-09T13:04:43+00:00",
+  "threshold": 0.2677,
+  "metrics": {
+    "roc_auc": 0.8138,
+    "f1_threshold_0.5": 0.4972,
+    "f1_tuned": 0.5202
+  },
+  "features": [
+    "department",
+    "region",
+    "education",
+    "gender",
+    "recruitment_channel",
+    "no_of_trainings",
+    "age",
+    "previous_year_rating",
+    "length_of_service",
+    "awards_won",
+    "avg_training_score"
+  ],
+  "categories": {
+    "department": [
+      "Sales & Marketing",
+      "Operations",
+      "Technology",
+      "Analytics",
+      "R&D",
+      "Procurement",
+      "Finance",
+      "HR",
+      "Legal"
+    ],
+    "region": [
+      "region_1",
+      "region_2",
+      "region_3",
+      "region_4",
+      "region_5",
+      "region_6",
+      "region_7",
+      "region_8",
+      "region_9",
+      "region_10",
+      "region_11",
+      "region_12",
+      "region_13",
+      "region_14",
+      "region_15",
+      "region_16",
+      "region_17",
+      "region_18",
+      "region_19",
+      "region_20",
+      "region_21",
+      "region_22",
+      "region_23",
+      "region_24",
+      "region_25",
+      "region_26",
+      "region_27",
+      "region_28",
+      "region_29",
+      "region_30",
+      "region_31",
+      "region_32",
+      "region_33",
+      "region_34"
+    ],
+    "education": [
+      "Below Secondary",
+      "Bachelor's",
+      "Master's & above"
+    ],
+    "gender": [
+      "Male",
+      "Female"
+    ],
+    "recruitment_channel": [
+      "Referred",
+      "Sourcing",
+      "Others"
+    ]
+  },
+  "numeric_ranges": {
+    "no_of_trainings": [
+      1,
+      10
+    ],
+    "age": [
+      20,
+      60
+    ],
+    "previous_year_rating": [
+      1,
+      5
+    ],
+    "length_of_service": [
+      1,
+      37
+    ],
+    "awards_won": [
+      0,
+      1
+    ],
+    "avg_training_score": [
+      0,
+      100
+    ]
+  },
+  "versions": {
+    "python": "3.14.2",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  }
+}
